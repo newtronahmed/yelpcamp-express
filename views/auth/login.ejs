@@ -1,0 +1,19 @@
+<%- include('../partials/header.ejs'); -%>
+
+<div class="container">
+  <h1 class="text-center">Login</h1>
+  <form  method="post" action="/login" class="w-50 mx-auto">
+    <div class="jumbotron">
+      <div class="form-group">
+          
+          <input type="text" name='username' class="form-control" id="exampleInputEmail1" placeholder="username" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+          
+          <input type="password" name='password' class="form-control" placeholder="password" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+  </form>
+</div>
+
